@@ -1,4 +1,77 @@
 
-body { background-color: whitesmoke; color: rgba(255, 255, 255, 0.7); font-family: "Montserrat", sans-serif; cursor: default; margin: auto 0; }
+body {
+    background-color: whitesmoke;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+    margin: auto 0;
+}
 
-.chess-board { background-color: red; }
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.board-container .heading-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.board-container .heading-info .turn {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.board-container .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.board-container .board .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board-container .board .row .cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    margin: 2px;
+    border-radius: 5px;
+}
+.board-container .board .row .cell-white {
+    background-color: #fff;
+}
+.board-container .board .row .cell-black {
+    background-color: silver;
+}
+
+.board-container .board .row .cell .piece-R1,
+.board-container .board .row .cell .piece-N1,
+.board-container .board .row .cell .piece-B1,
+.board-container .board .row .cell .piece-Q1,
+.board-container .board .row .cell .piece-K1,
+.board-container .board .row .cell .piece-P1 {
+    color: blue;
+}
+.board-container .board .row .cell .piece-R2,
+.board-container .board .row .cell .piece-N2,
+.board-container .board .row .cell .piece-B2,
+.board-container .board .row .cell .piece-Q2,
+.board-container .board .row .cell .piece-K2,
+.board-container .board .row .cell .piece-P2 {
+    color: red;
+}
+
