@@ -1,0 +1,32 @@
+{
+  "name": "chess-game",
+  "version": "1.0.0",
+  "description": "Chess Game",
+  "homepage": "https://github.com/boolfalse/chess-game#readme",
+  "bugs": {
+    "url": "https://github.com/boolfalse/chess-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boolfalse/chess-game.git"
+  },
+  "license": "ISC",
+  "author": "boolfalse",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
