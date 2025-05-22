@@ -75,3 +75,6 @@ body {
     color: red;
 }
 
+.board-container .board .row .cell.selected {
+    background-color: orange;
+}
