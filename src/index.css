@@ -78,3 +78,6 @@ body {
 .board-container .board .row .cell.selected {
     background-color: orange;
 }
+.board-container .board .row .cell.available {
+    background-color: darkseagreen;
+}
